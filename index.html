@@ -8,8 +8,10 @@
 </head>
 <body>
     <div class="picture-logo-frame">
-        <img src="./src/logobg.jpg">
-        <div class="logo-text">Meren tee</div>
+        <img src="./src/logobg.jpg" class="bg-image">
+        <div class="logo-text-bg">
+            <p class="logo-text">Meren tee</p>
+        </div>
     </div>
     <div class="frame-container">
         <div class="description-box">
@@ -17,38 +19,41 @@
             <p class="second-para">Sign up <em>now</em> to get started.</p>
             <p class="third-para">You <em>know</em> you want to.</p>
         </div>
-        <form action="">
+        <div class="mid-box">
+            <h2 class="mid-box-header">Let's do this!</h2>
             <div class="form-box">
-                <label class="first_name">
-                    First name
-                    <input type="text" id="first_name" name="first_name">
-                </label>
-                <label class="last_name">
-                    Last name
-                    <input type="text" id="last_name" name="last_name">
-                </label>
-                <label class="email">
-                    Email
-                    <input type="email" id="email" name="email">
-                </label>
-                <label class="phonenumber">
-                    Phone number
-                    <input type="text" íd="phonenumber" name="phonenumber">
-                </label>
-                <label class="user_password">
-                    Password
-                    <input type="password" id="user_password" name="password">
-                </label>
-                <label class="confirm_user_password">
-                    Confirm password
-                    <input type="password" id="confirm_user_password" name="password">
-                </label>
+                <form action="" class="input-forms">
+                    <label class="first_name">
+                        First name
+                        <input type="text" id="first_name" name="first_name">
+                    </label>
+                    <label class="last_name">
+                        Last name
+                        <input type="text" id="last_name" name="last_name">
+                    </label>
+                    <label class="email">
+                        Email
+                        <input type="email" id="email" name="email">
+                    </label>
+                    <label class="phonenumber">
+                        Phone number
+                        <input type="text" íd="phonenumber" name="phonenumber">
+                    </label>
+                    <label class="user_password">
+                        Password
+                        <input type="password" id="user_password" name="password">
+                    </label>
+                    <label class="confirm_user_password">
+                        Confirm password
+                        <input type="password" id="confirm_user_password" name="password">
+                    </label>
+                </form>
             </div>
             <div class="button-box">
                 <button type=submit>Create Account</button>
             </div> 
-        </form>
         </div>
+                
     </div>
     <script src="app.js"></script>
 </body>
